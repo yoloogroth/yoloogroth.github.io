@@ -12,30 +12,27 @@ export class InterestsComponent implements OnInit {
 
   ngOnInit(): void {
     let i = {
-      nombre: "Oir musica",
+      nombre: "Fotografia",
     };
     let i2 = {
       nombre: "Leer",
     };
     let i3 = {
-      nombre: "Jugar Basquetball",
+      nombre: "Tecnologia",
     };
     let i4 = {
-      nombre: "Nadar",
+      nombre: "Arte",
     };
     let i5 = {
-      nombre: "Cantar",
-    };
-    let i6 = {
-      nombre: "Salir de viaje",
+      nombre: "Viajar",
+   
     };
     
     this.interests.push(i);
     this.interests.push(i2);
     this.interests.push(i3);
     this.interests.push(i4);
-    this.interests.push(i5);
-    this.interests.push(i6);
+   
   }
 
 }
