@@ -8,6 +8,7 @@ import { EducationComponent } from './education/education.component';
 import { SkillComponent } from './skill/skill.component';
 import { AyCComponent } from './achivements/ay-c.component';
 import { LanguagesComponent } from './languages/languages.component';
+import { InterestsComponent } from './interests/interests.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { LanguagesComponent } from './languages/languages.component';
     SkillComponent,
     AyCComponent,
     LanguagesComponent,
+    InterestsComponent,
   ],
   imports: [
     BrowserModule
